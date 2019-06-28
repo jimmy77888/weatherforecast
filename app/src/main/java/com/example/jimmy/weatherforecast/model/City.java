@@ -1,6 +1,6 @@
 package com.example.jimmy.weatherforecast.model;
 
-//Zhiming Weng
+//Zhiming WenG
 public class City {
     public String cityName;
     public int cityID;
