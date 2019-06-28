@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="@string/def_zipcode"
+        android:key="@string/key_zipcode"
+        android:title="@string/title_zipcode"
+        android:inputType="number"
+        android:summary=""
+        >
+    </EditTextPreference>
+    <SwitchPreference
+        android:defaultValue="@bool/def_unit"
+        android:key="@string/key_units"
+        android:title="@string/title_unit"
+        android:summaryOn="@string/summary_metric"
+        android:summaryOff="@string/summary_imperial"
+        android:switchTextOn="@string/summary_metric"
+        android:switchTextOff="@string/summary_imperial"
+        >
+    </SwitchPreference>
+
+</PreferenceScreen>

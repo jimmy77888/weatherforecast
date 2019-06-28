@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="key_zipcode">keyzipcode</string>
+    <string name="key_units">keyunits</string>
+    <string name="title_zipcode">Zipcode</string>
+    <string name="title_unit">Unit</string>
+    <string name="summary_metric">Metric</string>
+    <string name="metric">Metric</string>
+    <string name="summary_imperial">Imperial</string>
+    <string name="imperial">Imperial</string>
+    <string name="def_zipcode">55104</string>
+    <string name="dialogfragment_zipcode_hint">Enter 5-digit zipcode</string>
+    <string name="dialogfragment_zipcode_warning">It must be 5-digit numbers</string>
+    <string name="dialogfragment_zipcode_title">Enter a zipcode</string>
+    <string name="dialogfragment_zipcode_ok">OK</string>
+    <string name="dialogfragment_zipcode_cancel">Cancel</string>
+    <string name="city_activity_toast_city_exists">The city exists in the list.</string>
+
+</resources>

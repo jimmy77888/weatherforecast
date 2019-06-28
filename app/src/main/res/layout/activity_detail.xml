@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_date"
+                    android:textSize="23sp"
+                    tools:text="Date: 02/08/2019"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_weather_condition"
+                    android:textSize="23sp"
+                    tools:text="Weather: Cloudy"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_temp_max"
+                    android:textSize="23sp"
+                    tools:text="High Temperature: 30F"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_temp_min"
+                    android:textSize="23sp"
+                    tools:text="Low Temperature: 30F"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_description"
+                    android:textSize="23sp"
+                    tools:text="Description: few clouds"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_humidity"
+                    android:textSize="23sp"
+                    tools:text="Humidity: 50%"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_pressure"
+                    android:textSize="23sp"
+                    tools:text="Air Pressure: 1Pa"
+                    />
+        </LinearLayout>
+</layout>

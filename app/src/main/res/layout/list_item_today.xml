@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable name="weatherData" type="com.example.jimmy.weatherforecast.model.WeatherData"/>
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:gravity="center"
+            android:id="@+id/tv_condition"
+            android:textSize="@dimen/text_medium"
+            android:text="@{weatherData.condition}"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:gravity="center"
+            android:id="@+id/tv_temp"
+            android:textSize="@dimen/text_large"
+            android:text="@{weatherData.temp}"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_large"
+                android:textSize="@dimen/text_small"
+                android:id="@+id/tv_date"
+                android:text='@{weatherData.date  + "   Today"}'
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/margin_large"
+                android:textSize="@dimen/text_small"
+                android:id="@+id/tv_temp_min"
+                android:text="@{weatherData.tempMin}"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_temp_min"
+                android:layout_margin="@dimen/margin_large"
+                android:textSize="@dimen/text_small"
+                android:id="@+id/tv_temp_max"
+                android:text="@{weatherData.tempMax}"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
